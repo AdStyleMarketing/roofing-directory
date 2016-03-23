@@ -48,5 +48,6 @@ group :development do
   gem 'font-awesome-rails'
   gem 'simple_form'
   gem 'jquery-turbolinks'
+  gem 'material_icons'
 end
 
