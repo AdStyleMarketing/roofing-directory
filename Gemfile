@@ -49,5 +49,6 @@ group :development do
   gem 'simple_form'
   gem 'jquery-turbolinks'
   gem 'material_icons'
+  gem 'devise'
 end
 
