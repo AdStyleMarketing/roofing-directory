@@ -47,5 +47,6 @@ group :development do
   gem 'spring'
   gem 'font-awesome-rails'
   gem 'simple_form'
+  gem 'jquery-turbolinks'
 end
 
