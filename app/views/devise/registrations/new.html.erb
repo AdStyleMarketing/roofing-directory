@@ -4,25 +4,26 @@
   <%= f.error_notification %>
 
   <div class="input-field">
-    <%= f.input_field :name, required: true, autofocus: true %>
-    <label for="name">Name</label>
+      <%= f.input_field :name, required: true, autofocus: true %>
+      <label for="name">Name</label>
   </div>
   <div class="input-field">
-    <%= f.input_field :email, required: true, %>
-    <label for="email">Email</label>
+      <%= f.input_field :email, required: true %>
+      <label for="email">Email</label>
   </div>
-  <div class="input_field">
+  <div class="input-field">
     <%= f.input_field :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
-     <label for="password">Password</label>
+    <label for="password">Password</label>
+  </div>
+  <div class="input-field">
+    <%= f.input_field :password_confirmation, required: true %>
+    <label for="password_confirmation">Confirm Password</label>
   </div>
 
   <div class="form-actions">
     <%= f.button :submit, "Sign up" %>
   </div>
 <% end %>
+<br>
 
 <%= render "devise/shared/links" %>
-
-
-
-
