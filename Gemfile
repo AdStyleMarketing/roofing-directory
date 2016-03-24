@@ -50,5 +50,6 @@ group :development do
   gem 'jquery-turbolinks'
   gem 'material_icons'
   gem 'devise'
+  gem 'gravatarify'
 end
 
