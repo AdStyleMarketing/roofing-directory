@@ -1,0 +1,55 @@
+<%= simple_form_for(@place) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="input-field">
+    <%= f.input_field :business_name %>
+    <label for="business_name">Business Name</label>
+  </div>
+
+  <div class="input-field">  
+    <%= f.input_field :address_1 %>
+    <label for="address_1">Address Line 1</label>
+  </div>
+
+  <div class="input-field">
+    <%= f.input_field :address_2 %>
+    <label for="address_2">Address Line 2</label>
+  </div>
+
+  <div class="input-field">  
+    <%= f.input_field :city %>
+    <label for="city">City</label>
+  </div>
+
+  <div class="input-field">  
+    <%= f.input_field :state %>
+    <label for="state">State</label>
+  </div>
+  <div class="input-field">  
+    <%= f.input_field :zip_code %>
+    <label for="zip_coder">Zip Code</label>
+  </div>
+
+  <div class="input-field">  
+    <%= f.input_field :phone_number %>
+    <label for="phone_number">Phone Number</label>
+  </div>
+
+  <div class="input-field">
+    <%= f.input_field :website %>
+    <label for="website">Website</label>
+  </div>
+
+  <div class="input-field">  
+    <%= f.text_field :about %>
+    <label for="about">About</label>
+  </div>
+
+    <%= f.input_field :user_id %>
+    <%= f.input_field :claimed %>
+
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
