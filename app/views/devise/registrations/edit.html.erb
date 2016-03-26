@@ -8,11 +8,11 @@
   <%= f.error_notification %>
 
   <div class="input-field">
-    <%= f.input_field :name, required: true, autofocus: true %>
+    <%= f.input_field :name, required: true, autofocus: true, input_html: { class: 'validate' } %>
     <label for="name">Name</label>
   </div>
   <div class="input-field">
-    <%= f.input_field :email, required: true %>
+    <%= f.input_field :email, required: true, input_html: { class: 'validate' } %>
     <label for="email">Email</label>
   </div>
 

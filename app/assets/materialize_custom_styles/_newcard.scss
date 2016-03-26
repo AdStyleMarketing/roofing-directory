@@ -4,7 +4,7 @@
   transition: box-shadow .25s;
   padding: $card-padding;
   margin: $element-top-margin 0 $element-bottom-margin 0;
-  border-radius: 2px;
+  border-radius: 6px;
   @extend .z-depth-1;
   background-color: $card-bg-color;
 }
@@ -117,7 +117,7 @@
   .card-reveal {
     padding: $card-padding;
     position: absolute;
-    background-color: rgba(160,160,160,.95);
+    background-color: rgba(0,0,0,.5);
     color: #FFFFFF;
     width: 100%;
     overflow-y: auto;
@@ -129,6 +129,7 @@
     .card-title {
       cursor: pointer;
       display: block;
+      color: #ffffff;
     }
 
   }
